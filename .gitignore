@@ -1,0 +1,32 @@
+# Environment variables
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.db
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+
+# Artifacts & Storage
+artifacts/
+scratch/
+backend/scratch/
+.pytest_cache/
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
